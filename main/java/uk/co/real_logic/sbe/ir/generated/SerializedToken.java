@@ -1,15 +1,16 @@
 /* Generated SBE (Simple Binary Encoding) message codec */
 package uk.co.real_logic.sbe.ir.generated;
 
-import uk.co.real_logic.sbe.generation.java.*;
+import uk.co.real_logic.sbe.codec.java.CodecUtil;
+import uk.co.real_logic.sbe.codec.java.DirectBuffer;
 
-public class SerializedToken implements MessageFlyweight
+public class SerializedToken
 {
     public static final int TEMPLATE_ID = 2;
     public static final short TEMPLATE_VERSION = (short)0;
     public static final int BLOCK_LENGTH = 19;
 
-    private MessageFlyweight parentMessage = this;
+    private SerializedToken parentMessage = this;
     private DirectBuffer buffer;
     private int offset;
     private int position;
